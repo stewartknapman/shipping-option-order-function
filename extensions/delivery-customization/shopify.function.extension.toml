@@ -1,6 +1,6 @@
 name = "delivery-customization"
 type = "delivery_customization"
-api_version = "2023-04"
+api_version = "2024-07"
 
 [build]
 command = ""
