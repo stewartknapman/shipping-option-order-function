@@ -19,11 +19,15 @@ const NO_CHANGES = {
 export function run(input) {
 
   if (input.cart.lines.length > 1) {
+    const cartLines = input.cart.lines.map((cartline) => { "cartLineId": cartline.id, "quantity": cartline.quantity });
+
+    console.log('cartLines', cartLines);
+
     return {
       "operations": [
         {
           "merge": {
-            "cartLines": input.cart.lines,
+            "cartLines": cartLines,
             "parentVariantId": "gid://shopify/ProductVariant/10102625894673",
             "price": {
               // "percentageDecrease": {
