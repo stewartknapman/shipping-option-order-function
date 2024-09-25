@@ -19,7 +19,7 @@ const NO_CHANGES = {
 export function run(input) {
 
   if (input.cart.lines.length > 1) {
-    const cartLines = input.cart.lines.map((cartline) => { "cartLineId": cartline.id, "quantity": cartline.quantity });
+    const cartLines = input.cart.lines.map((cartline) => ({ "cartLineId": cartline.id, "quantity": cartline.quantity }));
 
     console.log('cartLines', cartLines);
 
