@@ -94,3 +94,21 @@ export default
 
 //   return NO_CHANGES;
 // };
+
+
+// function Extension () {
+//   if (useStorage(showPickupFields) {
+//     return (
+//       ... fields ...
+//     );
+//   } else {
+//     return (
+//       <Button
+//         kind="plain"
+//         onPress={() => {
+//           useStorage(showPickupFields, true);
+//         }}
+//       >
+//     );
+//   }
+// }
