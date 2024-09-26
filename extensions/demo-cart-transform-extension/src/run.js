@@ -30,9 +30,9 @@ export function run(input) {
             "cartLines": cartLines,
             "parentVariantId": "gid://shopify/ProductVariant/50426689257745",
             "price": {
-              // "percentageDecrease": {
-              //   "value": 10.5
-              // }
+              "percentageDecrease": {
+                "value": -10.5
+              }
             },
             "title": "Snowboard Kit"
           }
