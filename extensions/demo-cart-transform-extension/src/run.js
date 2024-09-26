@@ -28,7 +28,7 @@ export function run(input) {
         {
           "merge": {
             "cartLines": cartLines,
-            "parentVariantId": "gid://shopify/ProductVariant/10102625894673",
+            "parentVariantId": "gid://shopify/ProductVariant/50426689257745",
             "price": {
               // "percentageDecrease": {
               //   "value": 10.5
